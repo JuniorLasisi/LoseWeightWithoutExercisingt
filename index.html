@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover how to lose weight easily without exercising. Effective weight loss program with Clean 9 products from Forever Living Products.">
+    <meta name="keywords" content="weight loss without exercise, easy weight loss, no exercise diet, effortless weight loss, clean 9, forever living products">
+    <title>Weight Loss Without Exercise | Effective and Easy Method</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: linear-gradient(to right, #4CAF50, #8BC34A);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+        
+        .language-selector {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+        
+        .language-selector:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        
+        .hero {
+            background: url('https://images.unsplash.com/photo-1511688878353-3a2f5be94cd7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+            color: white;
+            position: relative;
+        }
+        
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 1;
+        }
+        
+        .hero-content {
+            z-index: 2;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        
+        .hero h2 {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #ff6b6b;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        
+        .btn:hover {
+            background: #ff5252;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        
+        .features {
+            padding: 80px 0;
+            text-align: center;
+        }
+        
+        .features h2 {
+            font-size: 2.5rem;
+            margin-bottom: 60px;
+            color: #4CAF50;
+        }
+        
+        .feature-grid {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .feature-box {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin-bottom: 30px;
+            width: calc(33% - 20px);
+            transition: all 0.3s ease;
+        }
+        
+        .feature-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+        
+        .feature-box h3 {
+            font-size: 1.5rem;
+            margin: 20px 0;
+            color: #4CAF50;
+        }
+        
+        .feature-box p {
+            color: #666;
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            color: #4CAF50;
+        }
+        
+        .testimonials {
+            background: #4CAF50;
+            padding: 80px 0;
+            color: white;
+            text-align: center;
+        }
+        
+        .testimonials h2 {
+            font-size: 2.5rem;
+            margin-bottom: 60px;
+        }
+        
+        .testimonial-grid {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .testimonial-box {
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            width: calc(33% - 20px);
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+        
+        .testimonial-author {
+            font-weight: bold;
+        }
+        
+        .cta {
+            padding: 100px 0;
+            text-align: center;
+            background: #f1f1f1;
+        }
+        
+        .cta h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        
+        .cta p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            color: #666;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+        
+        .footer-text {
+            margin-bottom: 20px;
+        }
+        
+        @media (max-width: 1024px) {
+            .feature-box, .testimonial-box {
+                width: calc(50% - 20px);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .feature-box, .testimonial-box {
+                width: 100%;
+            }
+        }
+        
+        /* French language class - initially hidden */
+        .fr {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="en">Weight Loss Program Without Exercise</h1>
+            <h1 class="fr">Programme de Perte de Poids Sans Sport</h1>
+            <div class="language-selector" onclick="toggleLanguage()">
+                <span class="en">🇫🇷 Français</span>
+                <span class="fr">🇺🇸 English</span>
+            </div>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="en">Lose Weight Without Exercising</h1>
+            <h1 class="fr">Perdez du Poids Sans Faire de Sport</h1>
+            
+            <h2 class="en">Discover our simple and effective method to slim down easily</h2>
+            <h2 class="fr">Découvrez notre méthode simple et efficace pour mincir facilement</h2>
+            
+            <a href="https://princerai.my.canva.site/noexerciseweightloss" class="btn en">Discover The Method</a>
+            <a href="https://princerai.my.canva.site/noexerciseweightloss" class="btn fr">Découvrir la Méthode</a>
+        </div>
+    </section>
+    
+    <section class="features">
+        <div class="container">
+            <h2 class="en">Why Choose Our Program</h2>
+            <h2 class="fr">Pourquoi Choisir Notre Programme</h2>
+            
+            <div class="feature-grid">
+                <div class="feature-box">
+                    <div class="feature-icon">🍎</div>
+                    <h3 class="en">Adapted Nutrition</h3>
+                    <h3 class="fr">Alimentation Adaptée</h3>
+                    
+                    <p class="en">Simple nutritional advice to transform your body without constraints.</p>
+                    <p class="fr">Des conseils nutritionnels simples à suivre pour transformer votre corps sans contrainte.</p>
+                </div>
+                
+                <div class="feature-box">
+                    <div class="feature-icon">⏱️</div>
+                    <h3 class="en">Quick Results</h3>
+                    <h3 class="fr">Résultats Rapides</h3>
+                    
+                    <p class="en">Start seeing results in the first few weeks with our proven program.</p>
+                    <p class="fr">Commencez à voir des résultats dès les premières semaines avec notre programme éprouvé.</p>
+                </div>
+                
+                <div class="feature-box">
+                    <div class="feature-icon">🌿</div>
+                    <h3 class="en">Natural Products</h3>
+                    <h3 class="fr">Produits Naturels</h3>
+                    
+                    <p class="en">Our Clean 9 program from Forever Living uses high-quality natural ingredients.</p>
+                    <p class="fr">Notre programme Clean 9 de Forever Living utilise des ingrédients naturels de haute qualité.</p>
+                </div>
+                
+                <div class="feature-box">
+                    <div class="feature-icon">🛋️</div>
+                    <h3 class="en">No Physical Effort</h3>
+                    <h3 class="fr">Sans Effort Physique</h3>
+                    
+                    <p class="en">Lose weight comfortably without needing intensive workout sessions.</p>
+                    <p class="fr">Perdez du poids confortablement sans avoir besoin de faire des séances de sport intensives.</p>
+                </div>
+                
+                <div class="feature-box">
+                    <div class="feature-icon">🧠</div>
+                    <h3 class="en">Personalized Support</h3>
+                    <h3 class="fr">Accompagnement Personnalisé</h3>
+                    
+                    <p class="en">Tailored follow-up to maximize your results and keep you motivated.</p>
+                    <p class="fr">Un suivi adapté à vos besoins pour maximiser vos résultats et vous motiver.</p>
+                </div>
+                
+                <div class="feature-box">
+                    <div class="feature-icon">♻️</div>
+                    <h3 class="en">Lasting Changes</h3>
+                    <h3 class="fr">Changements Durables</h3>
+                    
+                    <p class="en">Learn to maintain your ideal weight long-term with simple habits.</p>
+                    <p class="fr">Apprenez à maintenir votre poids idéal sur le long terme avec des habitudes simples.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="en">Success Stories</h2>
+            <h2 class="fr">Ils ont réussi avec notre méthode</h2>
+            
+            <div class="testimonial-grid">
+                <div class="testimonial-box">
+                    <p class="testimonial-text en">"I lost 18 pounds in just 2 months without any exercise. The Clean 9 program completely transformed my life and my relationship with food."</p>
+                    <p class="testimonial-text fr">"J'ai perdu 8 kg en seulement 2 mois sans aucun sport. Le programme Clean 9 a complètement transformé ma vie et ma relation avec la nourriture."</p>
+                    
+                    <p class="testimonial-author en">- Sophie, 35</p>
+                    <p class="testimonial-author fr">- Sophie, 35 ans</p>
+                </div>
+                
+                <div class="testimonial-box">
+                    <p class="testimonial-text en">"After trying numerous diets without success, I finally found a solution that works. Down 26 pounds and feeling better than ever!"</p>
+                    <p class="testimonial-text fr">"Après avoir essayé de nombreux régimes sans succès, j'ai finalement trouvé une solution qui fonctionne. -12kg et je me sens mieux que jamais!"</p>
+                    
+                    <p class="testimonial-author en">- Mark, 42</p>
+                    <p class="testimonial-author fr">- Marc, 42 ans</p>
+                </div>
+                
+                <div class="testimonial-box">
+                    <p class="testimonial-text en">"As a busy mom, I didn't have time to exercise. This program allowed me to lose weight while managing my busy schedule."</p>
+                    <p class="testimonial-text fr">"En tant que mère occupée, je n'avais pas le temps de faire du sport. Ce programme m'a permis de perdre du poids tout en gérant mon emploi du temps chargé."</p>
+                    
+                    <p class="testimonial-author en">- Claire, 29</p>
+                    <p class="testimonial-author fr">- Claire, 29 ans</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="cta">
+        <div class="container">
+            <h2 class="en">Ready to Transform Your Body?</h2>
+            <h2 class="fr">Prêt à Transformer Votre Corps?</h2>
+            
+            <p class="en">Join thousands of people who have successfully lost weight without exercising thanks to our Clean 9 program from Forever Living Products. Start today!</p>
+            <p class="fr">Rejoignez des milliers de personnes qui ont réussi à perdre du poids sans faire de sport grâce à notre programme Clean 9 de Forever Living Products. Commencez dès aujourd'hui!</p>
+            
+            <a href="https://princerai.my.canva.site/noexerciseweightloss" class="btn en">Start Now</a>
+            <a href="https://princerai.my.canva.site/noexerciseweightloss" class="btn fr">Commencer Maintenant</a>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p class="footer-text en">© 2025 Weight Loss Program Without Exercise | Clean 9 Products by Forever Living</p>
+            <p class="footer-text fr">© 2025 Programme de Perte de Poids Sans Sport | Produits Clean 9 de Forever Living</p>
+            
+            <p class="en">Individual results may vary. Consult a healthcare professional before starting any weight loss program.</p>
+            <p class="fr">Résultats individuels peuvent varier. Consultez un professionnel de santé avant de commencer tout programme de perte de poids.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleLanguage() {
+            const enElements = document.querySelectorAll('.en');
+            const frElements = document.querySelectorAll('.fr');
+            
+            enElements.forEach(el => {
+                if (el.style.display === 'none') {
+                    el.style.display = 'block';
+                } else {
+                    el.style.display = 'none';
+                }
+            });
+            
+            frElements.forEach(el => {
+                if (el.style.display === 'none') {
+                    el.style.display = 'block';
+                } else {
+                    el.style.display = 'none';
+                }
+            });
+        }
+        
+        // Initialize to show English by default
+        document.addEventListener('DOMContentLoaded', function() {
+            const frElements = document.querySelectorAll('.fr');
+            frElements.forEach(el => {
+                el.style.display = 'none';
+            });
+        });
+    </script>
+</body>
+</html>
